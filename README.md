@@ -4,7 +4,7 @@ e passei tempo de mais estudando Python para Data Science e SQL, então era nece
 projeto simples!
 ## Foram utilizados:
 * **Bibliotecas:**
-    * Kaggle: Para download do conjunto de dados (também disponível para download manual).
+    * Kaggle: Para download do conjunto de dados (download manual também funciona, caso não queira usar).
     * MariaDB: Conector para interação com o banco de dados.
     * Pandas: Para manipulação e transformação dos dados.
     * SQLAlchemy: Para conexão e interação com o banco de dados SQL.
@@ -18,7 +18,7 @@ O projeto consiste em um script Python que realiza as seguintes etapas:
     * Extração dos dados de um arquivo ZIP.
 2.  **Transformação:**
     * Carregamento dos dados em um DataFrame do Pandas.
-    * Limpeza e formatação dos dados (tratamento de valores nulos, conversão de tipos, etc.).
+    * Limpeza e formatação dos dados (tratamento de valores nulos, conversão de tipos).
     * Cálculo de novas colunas (desconto, preço de venda, lucro).
     * Remoção de colunas redundantes.
 3.  **Carga:**
